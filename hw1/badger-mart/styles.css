@@ -1,0 +1,39 @@
+table, th, td {
+  border: 1px solid;
+}
+
+.job-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.job-option input[type='radio'] {
+  margin-right: 10px;
+}
+
+.job-description {
+  margin-left: 10px;
+}
+
+.large-text-wrap {
+  inline-size: 500px; 
+}
+
+/* TODO: Add your primary and secondary styling below! */
+.primary-button {
+  background-color: rgb(32, 165, 32);
+  
+  padding: 16px 20px;
+  color: white;
+  font-weight: 500;
+  border-radius: 16px;
+  border: none;
+  overflow: hidden;
+}
+
+.secondary-button {
+  padding: 1px;
+  border-radius: 16px;
+  padding: 16px 20px;
+}
