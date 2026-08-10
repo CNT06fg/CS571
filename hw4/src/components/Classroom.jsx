@@ -116,12 +116,12 @@ const Classroom = () => {
           <Pagination.Prev
             onClick={() => setActivePage(activePage - 1)}
             disabled={activePage === 1}
-          />
+          >Previous</Pagination.Prev>
           {pageButtons}
           <Pagination.Next
             onClick={() => setActivePage(activePage + 1)}
             disabled={activePage === totalPages}
-          />
+          >Next</Pagination.Next>
         </Pagination>
         <Row>
           {filteredStudents.length > 0 ? (
